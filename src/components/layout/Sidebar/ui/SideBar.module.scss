@@ -1,0 +1,14 @@
+.sidebar {
+  @apply flex flex-col justify-between border-r p-5;
+  border-color: var(--border-color);
+}
+
+.active {
+  color: var(--color);
+}
+.sidebaritem {
+  transition: 0.2s;
+  &:hover {
+    color: var(--color);
+  }
+}

@@ -1,0 +1,17 @@
+.chat {
+  @apply flex flex-col w-[350px] border-r;
+  border-color: var(--border-color);
+}
+.info {
+  @apply flex justify-between border-b p-5;
+  border-color: var(--border-color);
+}
+.input {
+  @apply flex justify-between p-5 border-b;
+  border-color: var(--border-color);
+}
+
+.stories {
+  @apply flex justify-between p-5 border-b;
+  border-color: var(--border-color);
+}

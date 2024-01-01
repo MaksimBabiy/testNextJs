@@ -1,0 +1,10 @@
+.input {
+  background: transparent;
+  outline: none;
+}
+.chatbody {
+  @apply flex justify-between p-5;
+  border-top: 1px solid;
+  border-color: var(--border-color);
+  height: 72px;
+}

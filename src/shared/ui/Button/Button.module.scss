@@ -1,0 +1,5 @@
+.button {
+  background-color: var(--bg-color);
+  color: var(--color);
+  @apply px-4 py-2 rounded-md;
+}

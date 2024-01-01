@@ -1,0 +1,5 @@
+.header {
+  @apply border-b p-5 flex justify-between;
+  border-color: var(--border-color);
+  position: relative;
+}

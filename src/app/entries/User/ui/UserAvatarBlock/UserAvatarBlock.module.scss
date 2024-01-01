@@ -1,0 +1,6 @@
+.avatar {
+  border-radius: 50%;
+}
+.avatarInfo {
+  @apply flex flex-col ml-3 justify-center;
+}

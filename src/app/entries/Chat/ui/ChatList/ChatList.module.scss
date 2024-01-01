@@ -1,0 +1,7 @@
+.chatList {
+  @apply flex flex-col;
+  overflow-y: scroll;
+}
+.chatList::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "reset.scss";
+@import "themes/dark.scss";
+@import "themes/light.scss";
+
+body {
+  color: var(--text-color);
+  font-size: 14px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(214, 214, 214, 1) 0%,
+    rgba(188, 150, 230, 1) 26%,
+    rgba(157, 99, 129, 1) 77%,
+    rgba(188, 150, 230, 1) 100%
+  );
+}
+input {
+  color: var(--text-color);
+}
+.app {
+  background-color: var(--bg-color);
+}

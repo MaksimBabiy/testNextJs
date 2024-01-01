@@ -1,0 +1,10 @@
+.count {
+  width: 20px;
+  height: 20px;
+  background-color: var(--interactable-color);
+  color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
